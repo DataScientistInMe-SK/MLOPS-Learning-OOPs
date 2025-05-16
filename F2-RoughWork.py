@@ -11,4 +11,9 @@ my_number = 10001
 # my_list.clear()
 # print("List :", my_list)
 # my_list.capitalize()
-print(my_string.capitalize())
+# print(my_string.capitalize())
+
+
+## Calling newly created class for OOPS chatbot here
+from Project_OOP import chatbook
+user1 = chatbook()
