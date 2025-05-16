@@ -1,0 +1,20 @@
+Topic 1: Class and Object
+Example:
+Class: A class serves as a template or blueprint (e.g., an 'Employee' class). It defines the common attributes and behaviors shared by all employees, such as having a name, age, and job title.
+Object: An object is a specific instance of a class. For example, 'John' would be an object created from the 'Employee' class. Each employee in the company is represented as an individual object.
+Attributes: Attributes are the data or characteristics associated with an object. Using the 'John' object, examples of attributes would be 'John's name is John,' 'John's age is 30,' and 'John's job title is Manager.' Attributes store the specific information about each employee.
+Methods: Methods are the actions or operations that an object can perform. For instance, methods related to the 'John' object might include 'calculate salary' or 'request time off.' Methods define the functionality associated with employees."
+
+Note: The function created under the class is known as Methods. Also, if whenever you define a function or methods (special or normal) give by defualt arguments as self 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Topic 2: Why Python is OOP?
+In Python, things like numbers (integers, floats), strings, lists, dictionaries, and even functions are all implemented as objects. This means they have associated data (attributes) and things they can do (methods).
+Example:
+A string (like "hello") is an object. It has data ("hello" itself) and methods like .upper() to change it to uppercase.
+-------------------------------------------------------------------------------------------------------------------------------------------
+Topic 3: Advantages of OOP
+- One can create its own datatype
+- Code reusibility
+- Debugging
+- Easy to colab
+
