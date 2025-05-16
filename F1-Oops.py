@@ -25,4 +25,8 @@ John = employee()
 ## Calling functionalty based features i.e., Methods
 # John.travel("Frankfurt")
 
-print(type(John))
+# print(type(John))
+
+### Step to define attribute outside the class 'Employee' in this code
+# John.name = "John Doe"
+# print(John.name)

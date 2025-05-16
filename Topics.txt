@@ -22,3 +22,7 @@ Topic 3: Advantages of OOP
 Topic 4: Python code for OOP Class
 - Created Class called chatbook
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Topic 5: Attributes and Methods
+- Self attributes can be defined outside the class
+

@@ -1,11 +1,34 @@
 # Program to understand Class and Objects
 
 class chatbook:
+    
+# Define hidden varibale for generating incremental Customer ID
+    __user_id = 0
+
     def __init__(self):
-         self.username = ""
+         self.id = chatbook.__user_id
+         chatbook.__user_id += 1
+         self.__name = "John Doe jr."
+         self.username  = ""
          self.password = ""
          self.loggedin =False
-         self.menu()
+        #  self.menu()
+    
+    
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+
+    @staticmethod
+    def set_id(value):
+        chatbook.__user_id   = value
+    
+    # Getter and Setter
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self, value):
+        self.__name= value
          
     def menu(self):
         user_input = input("""Welcome to Chatbook!! How would you like to proceed? 
@@ -68,4 +91,5 @@ class chatbook:
         self.menu()
                 
              
-# User1 = chatbook()
+User1 = chatbook()
+print(User1.username)
